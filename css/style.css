@@ -28,7 +28,7 @@ ol{
 .body{
 color:var(--first-color);
 background-color:var(--third-color);
-font-family: 'Roboto', sans-serif;
+font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -141,7 +141,6 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--third-color);
-padding-top: 188px;
 margin: 0 auto;
 margin-bottom: 48px;
 }
@@ -161,7 +160,6 @@ border-radius: 4px;
 border: none;
 cursor: pointer;
 padding:16px 32px;
-margin-top: 48px;
 }
 
 .skills-visually-hidden{
@@ -177,10 +175,14 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
+.skills{
+  padding-top: 120px;
+}
+
 
 .skills-list{
   display: flex;
-  padding-top: 120px;
+ 
 }
 
 .skills-pages{
@@ -225,6 +227,11 @@ margin-bottom: 72px;
   gap: 24px;
 }
 
+.image-navigation{
+  display: block;
+  max-width: 100%;
+}
+
 .info{
 background-color: #F4F4FD;
 padding-top: 120px;
@@ -255,6 +262,11 @@ margin-bottom: 72px;
 background-color: var(--third-color);
 }
 
+.info-navigation{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .info-caption{
 font-weight: 500;
 font-size: 20px;
@@ -262,7 +274,6 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--first-color);
-padding-top: 32px;
 margin-bottom: 8px;
 }
 
@@ -272,7 +283,6 @@ line-height:var(--first-typical-lh);
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--second-color);
-padding-bottom: 32px;
 }
 
 
@@ -281,6 +291,7 @@ padding-bottom: 32px;
 
 /*-------------PORTFOLIO.MAIN-------------*/
 .portfolio{
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -300,7 +311,6 @@ overflow: hidden;
 .portfolio-list{
   display: flex;
   justify-content: center;
-  padding-top: 96px;
   gap: 24px;
 }
 
@@ -312,6 +322,7 @@ overflow: hidden;
 .behind:focus{
 color: var(--third-color);
 background-color:  #404BBF;
+border-color: transparent;
 }
 
 
@@ -379,7 +390,6 @@ color: var(--second-color);
 background-color: var(--first-color);
 padding-top: 100px;
 padding-bottom: 100px;
-display: flex;
 }
     
  .width {
